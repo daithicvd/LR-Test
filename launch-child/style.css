@@ -1,0 +1,550 @@
+/*
+Theme Name: Launch Recruitment WP Theme Child
+Template: launch
+Author: #
+Author URI: #
+Description: Semantic, SEO Optimised, Custom Wordpress Theme for Launch Recruitment
+Version: 11.0.19
+Updated: 2018-01-17 17:43:53
+
+*/
+
+
+.form-section{background: url(./assets/img/fabric_of_squares_gray.png);}
+
+.white-block{
+	margin-bottom: 0px;
+}
+.post-container{
+	margin-bottom: 0px;
+	padding-bottom:  0px;
+}
+.grey-section{
+	padding-bottom: 0px;
+}
+.fixed-nav {
+    position: fixed;
+    z-index: 99999;
+    top: 40%;
+    display: flex;
+    transform: rotate(-90deg);
+    right: -10px;
+    transform-origin: right bottom;
+}
+.fixed-nav a {
+    padding: 20px 20px 30px;
+    background: #e11104;
+    color: #fff;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.fixed-nav a:hover {
+    opacity: 0.8;
+    transform: translateY(-10%);
+	text-decoration: none;
+}
+.fixed-nav a .fa {
+    transform: rotate(90deg);
+}
+@media screen and (max-width: 767px){
+	.grey-section {
+		padding-bottom: 0px !important;
+	}
+	.page-banner video, .main-banner .video-container {
+		display: none;
+	}
+	.grey-section.page-form .top-banner, .grey-section.job-page .top-banner {
+		margin-top: -80px;
+	}
+	.main-container.st-menu-open .pusher {
+		-webkit-transform: translate(-100%, 0) !important;
+		transform: translate(-100%, 0) !important;
+	}
+	.menu-dropdown .nav {
+		background: #5c5c5c;
+	}
+	.st-menu-open .menu-dropdown .nav {
+		width: 100%;
+		padding-left: 66px;
+		background: #5c5c5c;
+	}
+	.menu-dropdown .nav #nav {background:#fff;}
+	.page-template-pt-contact .section-banner.text .banner-text.right, .page-template-pt-contact .section-banner.text .banner-text.left {text-align: center;}
+	.menu-dropdown .sub-menu{width:calc(100% - 66px);}
+	.menu-dropdown .special-menu-dropdown .sub-menu{width:100%;}
+}
+@media screen and (max-width: 425px) {
+	.grey-section.page-form .top-banner .banner-text {
+		transform: translateY(0);
+	}
+
+}
+
+.refer-form{background: url(./assets/img/refer-a-friend.jpg);background-size: cover;}
+.feedback-form{background: url(./assets/img/feed-back.jpg);background-size: cover;}
+.client-form{background: url(./assets/img/client.jpg);background-size: cover;}
+.send-form{background: url(./assets/img/send.jpg);background-size: cover;}
+
+
+.post-398 .grey-section{
+	padding-top: 0px;
+}
+.post-392 .grey-section{
+	padding-top: 0px;
+}
+.post-400 .grey-section{
+	padding-top: 0px;
+}
+.post-402 .grey-section{
+	padding-top: 0px;
+}
+
+.page-id-398 .menu-button{
+	color: white;
+}
+
+/* .form-section h2{
+	display: none;
+}
+
+.page-form .form-section{
+	padding-top: 0px;
+	    padding-top: 10px;
+} */
+
+.post-413 .title_feed_instagram{
+	margin-top: 65px;
+}
+
+.post-413 .form-work{
+	background-color: #fcfcfc;
+}
+
+.post-413 .apif-wrapper{
+	margin-bottom: 65px;
+}
+.menu-dropdown .search {
+	margin: 0;
+	padding: 50px 25px 100px 20px;
+	background:#fff;
+}
+#custom_html-3 .textwidget {
+	background:transparent;
+	padding: 0;
+}
+.specialisations .breadcrumbs {
+	margin-bottom: 20px;
+}
+.sidebar .search button {
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 44px;
+    display: inline-block;
+    background-color: transparent;
+    background-image: url(//dev.wpdev.com.au/launch/wp-content/themes/launch/assets/img/icons/search-red@2x.png);
+    background-size: 17px 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+	z-index: 3;
+}
+.sidebar .search input {position: relative;z-index: 1;}
+.testimonials.awards .slick-track{opacity:1 !important;}
+.page-id-60 .button-top{bottom: 71px;}
+/*.et_bloom .et_bloom_form_container .et_bloom_form_content{display: none;}*/
+.et_bloom .et_bloom_form_container .et_bloom_form_text, .et_bloom .et_bloom_form_container .et_bloom_form_img{padding-bottom: 0px !important;}
+.et_bloom .et_bloom_form_container .et_bloom_form_header{padding-bottom: 0px !important;}
+.page-id-60 .fb_dialog.fb_dialog_advanced{right: 22pt !important;}
+#li_gen_1523009291643_0{width: 67px !important;}
+.framed #frame #body{
+	width: 67px !important;
+}
+.IN-widget iframe iframe{
+	min-width: max-content !important;
+}
+  .social-details {
+    width: 67px;
+}
+.et_bloom_header_outer .et_bloom_form_text h2{text-align: left !important;}
+@media screen and(max-width: 768px){
+	.page-id-60 .fb_dialog.fb_dialog_advanced{right: 12pt !important;}
+}
+@media screen and(max-width: 480px){
+	.read{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1229px) {
+	.specialisations-list .hidden-content p {
+		margin-bottom: 0 !important;
+	    font-size: 14px;
+    	line-height: normal !important;	
+	}
+	a.view-more {
+		margin-top: 15px;
+    	display: block;
+	}
+
+}
+/*.video-container, .main-banner {display: none}*/
+
+
+/* Contact Us Red Button*/
+
+.btn.btn-red {
+    color: #fff;
+    margin-bottom: 15px;
+	margin-right: 15px;
+	border-radius: 23px;
+}
+a.btn.btn-red:hover {
+    color: #4a4a4a !important;
+}
+
+a.btn-red-outline{
+	border: 1px solid #da3832 !important;
+}
+
+a.btn-grey-outline{
+	border: 1px solid #a2a2a2 !important;
+	color:#444 !important;
+}
+
+a.btn-sm{
+	width:auto;
+	display: inline-block !important;
+	padding: 6px 16px !important;
+	font-size: 12px !important;
+}
+
+/*	BOUNCE SEEK WIN 	*/
+#bounce {
+    display: inline-block;
+    line-height: normal !important; 
+}
+#bounce img {
+	margin-right: 20px;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+#bounce a {
+	color: #fff;
+	
+	font-weight: bold
+}
+#bounce a:hover {
+	text-decoration: none
+}
+
+#bounce-wrapper {
+	position: absolute;
+    z-index: 9999;
+    bottom: 8%;
+    width: 100%;
+    display: block;
+    text-align: center;	
+    text-transform: uppercase;	
+}
+
+@media screen and (max-width: 767px){
+	#bounce-wrapper {
+	    bottom: 2%;
+	}	
+	#bounce {
+		line-height: normal !important;
+		max-width: 80%;
+		font-size: 14px;
+	}
+	#bounce img {
+		border:0 !important;
+		display: block;
+		margin: 0 auto;
+	    margin-bottom: 14px;	
+	    max-width: 100px;	
+
+	}
+
+}
+
+
+
+/* Job Filters */
+.job_filters .select2-selection{
+	height: 43px;
+	width: 100%;
+	border: 1px solid #D9D9D9; 
+	line-height: 20px;
+	padding: 6px 16px 13px;
+	border-radius: 2px;	
+	background-color: rgba(255,255,255,0.98);
+}
+
+.job_filters .select2-selection .select2-selection__arrow{
+	height: 43px;
+	
+}
+
+/* Jobs Listing */
+
+.job_listings ul li{
+	/* Get rid of silly astrisk on each UL */
+	background: none !important;
+}
+
+.job_listings .job-details{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+ul.job_listings li.job_listing .job-title a{
+	font-size: 28px;
+	padding:0;
+	margin-bottom: 10px;
+}
+ul.job_listings li.job_listing a:hover{
+	background-color: transparent;
+}
+
+ul.job_listings .job-info{
+	margin:0;
+}
+ul.job_listings .job-info li{
+	font-weight: 500;
+	font-size: 13px;
+	padding: 0 10px 0 0;
+	margin-right: 10px;
+	display: inline-block;
+	border-right: 1px solid #CCCCCC;
+	margin-left:0;
+}
+
+ul.job_listings .job-info li:last-of-type{
+	border:none;
+}
+
+
+ul.job_listings .job-description p{
+	margin-top: 6px;
+	margin-bottom: 19px;
+}
+
+.single_job_listing .meta .job-type{
+	background-color: #da3832;
+}
+
+.blog-content .entry-content{
+	padding:25px 0px 25px 0px;
+}
+
+.application_button {
+	background-color: #da3832;
+	border:0;
+	color:#FFF;
+	font-size: 22px;
+}
+
+.big-apply-btn{
+	background-color: #da3832;
+	border:0;
+	color:#FFF;
+	font-size: 22px;
+	padding: 20px 20px;
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-decoration: none;
+	transition: 0.3s all ease-in-out;
+	margin-bottom: 10px;
+}
+
+.big-apply-btn:hover{
+	background-color: #ccc;
+	color:#da3832;
+	text-decoration: none;
+	
+}
+
+.big-apply-btn i{
+	float:right;
+}
+
+/* 
+ul.job_listings .extra-job-links{
+	text-align:right;
+} */
+
+
+/* .job-content{
+	padding:0;
+	margin:auto;
+	display: block;
+} */
+
+
+.details-table{
+	/* background-color:#f7f5f6; 
+	margin-bottom:20px;
+	width:100%; */
+
+	border: 1px solid #E6E7E8;
+	background-color: #FFFFFF;	
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.06);
+
+	display: block;
+	padding: 9px 7px 9px 7px;
+	position: relative;
+	margin-bottom: 15px;
+	border-left: 4px solid #da3832;
+	margin-bottom: 30px;
+}
+
+.details-table td{
+	padding: 3px 0px;
+}
+
+
+.share-block{
+	background-color: #ececec;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.share-block h4{
+color:#da3832;
+font-weight: 400;
+font-size: 16px;
+}
+
+.share-block .addtoany_shortcode{
+	float: none;
+}
+
+
+.share-block .addtoany_shortcode a{
+	margin-left:0;
+	margin-right: 10px;
+}
+
+/* Forms */
+
+input.form-control, input.tml-field, .ms-parent {height: 43px;width: 100%;border: 1px solid #D9D9D9; line-height: 20px;padding: 10px 16px 13px;border-radius: 2px;	background-color: rgba(255,255,255,0.98);}
+textarea.form-control{height: 204px;width: 100%;border: 1px solid #D9D9D9; line-height: 20px;padding: 10px 16px 13px;border-radius: 2px;	background-color: rgba(255,255,255,0.98);resize: none;}
+textarea.form-control:-moz-placeholder{color: #9F9F9F;font-size: 14px;line-height: 20px;font-family: 'AktivGrotesk', Arial, sans-serif}
+textarea.form-control:-ms-input-placeholder{color: #9F9F9F;font-size: 14px;line-height: 20px;font-family: 'AktivGrotesk', Arial, sans-serif}
+textarea.form-control::-moz-placeholder{color: #9F9F9F;font-size: 14px;line-height: 20px;font-family: 'AktivGrotesk', Arial, sans-serif}
+textarea.form-control::-webkit-input-placeholder{color: #9F9F9F;font-size: 14px;line-height: 20px;font-family: 'AktivGrotesk', Arial, sans-serif}
+
+.plainList li, .select2-selection__rendered li, .job-alert-actions li{
+	background-image: none !important;
+}
+
+.ms-parent{
+	margin-top:0 !important;
+}
+.ms-drop{
+	background-color:#FFF;
+	max-width: calc(100vw - 60px);
+}
+
+.ms-drop ul{
+	max-height: none !important;
+
+}
+
+.ms-drop ul li{
+	padding-left:0 !important;
+}
+
+.ms-drop ul label{
+	background-color:#FFF !important;
+}
+
+.ms-choice{
+	border-bottom: none !important;
+}
+
+.job-manager-form fieldset .ms-drop li{
+	background-image: none !important;
+	padding:0;
+}
+.job-manager-form fieldset .ms-drop label{
+	float:none;
+	background: none;
+}
+
+.job_filters .search_jobs div label{
+	display: block;
+}
+
+.tml-button{
+
+	font-family: 'Circular Std', Arial, sans-serif;display: inline-block;width: 260px;border: 1px solid #dcdcdc; border-radius: 23px;line-height: 42px;font-size: 14px;text-align: center;text-transform: uppercase;font-weight: 700;
+	background: #da3832;color:#FFFFFF;text-decoration: none;border-color: #da3832;
+	border:1px solid; 
+	color: #fff;
+    margin-bottom: 15px;
+	margin-right: 15px;
+	border-radius: 23px;
+}
+
+
+@media (max-width: 980px){
+	.job_listing-template-default .sidebar{
+		display:none;
+	}
+
+	.job-content{
+		width:100%;
+		padding-right: 0;
+	}
+
+	.job_description li{
+		text-align: left;
+	}
+
+	.job_application{
+		text-align: center;
+	}
+
+	.share-mobile .addtoany_shortcode{
+		float: none !important;
+		text-align: center;
+	}
+
+	.share-mobile .addtoany_shortcode .addtoany_list{
+	margin-left:10px;
+	}
+
+	.job_filters .search_jobs div.search_keywords{
+		margin-bottom: 10px;
+	}
+	.job_filters .search_jobs div.search_keywords, .job_filters .search_jobs div.search_location{
+		width:100%;
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+}
+
+@media (min-width: 980px){
+	.share-mobile{
+		display: none;
+	}
+
+
+}

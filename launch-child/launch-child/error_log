@@ -1,0 +1,44 @@
+[09-Apr-2018 10:21:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/lradmin/public_html/wp-content/themes/launch-child/blank-page.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/blank-page.php on line 1
+[09-Apr-2018 10:21:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/lradmin/public_html/wp-content/themes/launch-child/blank-page.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/blank-page.php on line 1
+[09-Apr-2018 10:21:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/lradmin/public_html/wp-content/themes/launch-child/blank-page.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/blank-page.php on line 1
+[11-Sep-2018 08:18:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
+[11-Sep-2018 08:18:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
+[01-Jan-2019 00:06:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
+[01-Jan-2019 00:06:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
+[10-Jan-2019 20:33:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
+[10-Jan-2019 20:33:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
+[25-Feb-2019 03:47:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
+[25-Feb-2019 03:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/lradmin/public_html/wp-content/themes/launch-child/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/lradmin/public_html/wp-content/themes/launch-child/header.php on line 2
